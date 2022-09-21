@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomAddress]()
 returns nvarchar(300)
 as  

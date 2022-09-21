@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 insert rnd_MaleName (name) values ('Alessandro')
 insert rnd_MaleName (name) values ('Dario')
 insert rnd_MaleName (name) values ('Pierre')

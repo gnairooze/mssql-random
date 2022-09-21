@@ -1,8 +1,5 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomNumber](@from int, @to int)  
-returns int  
+returns int
 as  
 begin  
 	declare @result int

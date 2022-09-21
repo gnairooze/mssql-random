@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 insert rnd_FullName (name) values ('Hayley Copeland')
 insert rnd_FullName (name) values ('Seth Griffin')
 insert rnd_FullName (name) values ('Guillermo Decker')

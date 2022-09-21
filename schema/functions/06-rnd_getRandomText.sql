@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomText](@length int, @includeUpper bit, @includeLower bit, @includeNumber bit, @includeSpecial bit)
 returns varchar(4000)
 as  

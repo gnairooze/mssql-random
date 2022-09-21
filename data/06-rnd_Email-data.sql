@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 insert rnd_Email ([value]) values ('fglock@gmail.com')
 insert rnd_Email ([value]) values ('mthurn@hotmail.com')
 insert rnd_Email ([value]) values ('chrisj@me.com')

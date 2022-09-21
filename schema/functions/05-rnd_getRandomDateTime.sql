@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomDateTime](@fromDate date, @toDate date, @fromTime time, @toTime time)  
 returns datetime2
 as  

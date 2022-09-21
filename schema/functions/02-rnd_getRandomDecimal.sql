@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomDecimal](@from float, @to float)  
 returns float
 as  

@@ -1,6 +1,3 @@
-USE [randomdata]
-GO
-
 CREATE TABLE [dbo].[rnd_Email](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Value] [nvarchar](300) NOT NULL,

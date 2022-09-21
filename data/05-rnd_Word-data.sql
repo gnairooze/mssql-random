@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 insert rnd_Word ([value]) values ('abandon')
 insert rnd_Word ([value]) values ('ability')
 insert rnd_Word ([value]) values ('able')

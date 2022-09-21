@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomWord](@WordCount int)
 returns nvarchar(max)
 as  

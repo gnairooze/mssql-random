@@ -1,6 +1,3 @@
-USE [randomdata]
-GO
-
 CREATE TABLE [dbo].[rnd_Address](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Detail] [nvarchar](300) NOT NULL,

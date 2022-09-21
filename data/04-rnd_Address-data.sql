@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 insert rnd_Address (Detail) values ('9336 Richmond Road, COVENTRY, CV95 4ZS')
 insert rnd_Address (Detail) values ('92 Broadway, WOLVERHAMPTON, WV96 5QD')
 insert rnd_Address (Detail) values ('59 High Street, YORK, YO69 9TE')

@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomTime](@from time, @to time)  
 returns time
 as  

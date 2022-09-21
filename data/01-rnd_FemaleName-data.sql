@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 insert rnd_FemaleName (name) values ('Dania')
 insert rnd_FemaleName (name) values ('Tess')
 insert rnd_FemaleName (name) values ('Willow')

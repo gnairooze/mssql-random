@@ -1,5 +1,3 @@
-USE [randomdata]
-GO
 
 CREATE TABLE [dbo].[rnd_MaleName](
 	[Id] [int] IDENTITY(1,1) NOT NULL,

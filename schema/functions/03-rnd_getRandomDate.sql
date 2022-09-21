@@ -1,6 +1,3 @@
-use [randomdata]
-GO
-
 create function [dbo].[rnd_getRandomDate](@from date, @to date)  
 returns date
 as  

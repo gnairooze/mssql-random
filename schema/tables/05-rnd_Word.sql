@@ -1,6 +1,3 @@
-USE [randomdata]
-GO
-
 CREATE TABLE [dbo].[rnd_Word](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[value] [varchar](100) NOT NULL,
