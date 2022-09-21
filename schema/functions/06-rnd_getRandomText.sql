@@ -1,7 +1,7 @@
 use [randomdata]
 GO
 
-create function [dbo].[getRandomText](@length int, @includeUpper bit, @includeLower bit, @includeNumber bit, @includeSpecial bit)
+create function [dbo].[rnd_getRandomText](@length int, @includeUpper bit, @includeLower bit, @includeNumber bit, @includeSpecial bit)
 returns varchar(4000)
 as  
 begin  
@@ -43,7 +43,7 @@ begin
 	begin
 		select @data = [value] from @dataTable where id = @counter
 
-		set @randomNumber = dbo.getRandomNumber(0,len(@data))
+		set @randomNumber = dbo.rnd_getRandomNumber(0,len(@data))
 		set @result = @result + substring(@data,@randomNumber, 1)
 		
 		set @counter = @counter + 1
@@ -51,10 +51,10 @@ begin
 
 	while len(@result) < @length
 	begin
-		set @randomSetId = dbo.getRandomNumber(1,@max)
+		set @randomSetId = dbo.rnd_getRandomNumber(1,@max)
 		select @data = [value] from @dataTable where id = @randomSetId
 
-		set @randomNumber = dbo.getRandomNumber(0,len(@data))
+		set @randomNumber = dbo.rnd_getRandomNumber(0,len(@data))
 		select @result = @result + substring(@data, @randomNumber,1)
 	end
 
