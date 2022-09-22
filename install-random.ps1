@@ -32,7 +32,29 @@ $files = @(
     "$rootPath\data\06-rnd_Email-data.sql"
 )
 
-Import-Module sqlps
+function load_module($name)
+{
+    if (-not(Get-Module -Name $name))
+    {
+        if (Get-Module -ListAvailable | Where-Object { $_.name -eq $name })
+        {
+            Import-Module $name  
+
+            return $true
+        }
+        else
+        {   
+            return $false
+        }
+    }
+    else
+    {
+        return $true
+    }
+}
+
+# load_module sqlps
+load_module SqlServer
 
 foreach ($file in $files) {
     Write-Host $file
