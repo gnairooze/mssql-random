@@ -4,20 +4,21 @@ Generate random data in mssql
 
 ## Features
 
-It generates:
+It generates random:
 
-1. Random integer
-2. Random float
-3. Random date
-4. Random time
-5. Random datetime2
-6. Random text varchar(4000)
-7. Random word
-8. Random full name
-9. Random female name
-10. Random male name
-11. Random Address
-12. Random email
+1. integer
+2. float
+3. date
+4. time
+5. datetime2
+6. text varchar(4000)
+7. word
+8. full name
+9. female name
+10. male name
+11. address
+12. email
+13. phone number
 
 ## Install
 
@@ -61,6 +62,9 @@ select result = [dbo].[rnd_getRandomAddress]()
 
 --[dbo].[rnd_getRandomEmail]() returns nvarchar(300)
 select result = [dbo].[rnd_getRandomEmail]()
+
+--[dbo].[rnd_getRandomPhoneNo](@Prefix varchar(3), @PhoneNoLength int) returns varchar(100)
+select result = [dbo].[rnd_getRandomPhoneNo]('012', 8)
 ```
 
 ## Uninstall

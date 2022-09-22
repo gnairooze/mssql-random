@@ -22,6 +22,7 @@ $files = @(
     "$rootPath\schema\functions\10-rnd_getRandomMaleName.sql",
     "$rootPath\schema\functions\11-rnd_getRandomAddress.sql",
     "$rootPath\schema\functions\12-rnd_getRandomEmail.sql",
+    "$rootPath\schema\functions\13-rnd_getRandomPhoneNo.sql",
     "$rootPath\data\01-rnd_FemaleName-data.sql",
     "$rootPath\data\02-rnd_FullName-data.sql",
     "$rootPath\data\03-rnd_MaleName-data.sql",
