@@ -1,4 +1,4 @@
-create function [dbo].[rnd_getRandomPhoneNo](@Prefix varchar(3), @PhoneNoLength int)
+create function [dbo].[rnd_getRandomPhoneNo](@Prefix varchar(10), @PhoneNoLength int)
 returns varchar(100)
 as  
 begin  
