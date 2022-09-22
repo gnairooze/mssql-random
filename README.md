@@ -19,6 +19,10 @@ It generates:
 11. Random Address
 12. Random email
 
+## Install
+
+Use [install-random.ps1](install-random.ps1) powershell script to create SQL tables, view, scalar functions on SQL database and fill the tables with the needed data. Change the variables $connectionString and $rootPath to suit your environment.
+
 ## Examples
 
 ```sql
@@ -58,3 +62,7 @@ select result = [dbo].[rnd_getRandomAddress]()
 --[dbo].[rnd_getRandomEmail]() returns nvarchar(300)
 select result = [dbo].[rnd_getRandomEmail]()
 ```
+
+## Uninstall
+
+Run the [uninstall-random.sql](uninstall-random.sql) SQL script to remove SQL tables, view, scalar functions.
