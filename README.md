@@ -19,6 +19,7 @@ It generates random:
 11. address
 12. email
 13. phone number
+14. Egypt National ID
 
 ## Install
 
@@ -65,6 +66,9 @@ select result = [dbo].[rnd_getRandomEmail]()
 
 --[dbo].[rnd_getRandomPhoneNo](@Prefix varchar(3), @PhoneNoLength int) returns varchar(100)
 select result = [dbo].[rnd_getRandomPhoneNo]('012', 8)
+
+--[dbo].[rnd_getRandomEgyptID](@from date, @to date, @IsMale bit) returns varchar(60)
+select result = [dbo].[rnd_getRandomEgyptID]('1900-01-01', '2022-09-23', 1)
 ```
 
 ## Uninstall

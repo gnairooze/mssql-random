@@ -1,3 +1,6 @@
+DROP FUNCTION [dbo].[rnd_getRandomEgyptID]
+GO
+
 DROP FUNCTION [dbo].[rnd_getRandomPhoneNo]
 GO
 
