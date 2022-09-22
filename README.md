@@ -21,7 +21,7 @@ It generates:
 
 ## Install
 
-Use [install-random.ps1](install-random.ps1) powershell script to create SQL tables, view, scalar functions on SQL database and fill the tables with the needed data. Change the variables $connectionString and $rootPath to suit your environment.
+After cloning the repository, use [install-random.ps1](install-random.ps1) powershell script to create SQL tables, view, scalar functions on SQL database and fill the tables with the needed data. Change the variables $connectionString and $rootPath to suit your environment.
 
 ## Examples
 
